@@ -1,7 +1,8 @@
 function Tweet({ tweet }) {
   
-  const {user, timeStamp, message} = tweet;
+  const {user, timestamp, message} = tweet;
   const {name, image, handle} = user;
+  
   return (
     <div className="tweet">
       <img
@@ -17,7 +18,7 @@ function Tweet({ tweet }) {
             <span className="handle">{handle}</span>
           </span>
 
-          <span className="timestamp">{timeStamp}</span>
+          <span className="timestamp">{timestamp}</span>
         </div>
 
         <p className="message">
