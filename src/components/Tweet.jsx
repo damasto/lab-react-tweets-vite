@@ -9,6 +9,7 @@ function Tweet({ tweet }) {
   const { name, image, handle } = user;
 
   return (
+
     <div className="tweet">
       <ProfileImage image={image} />
 
