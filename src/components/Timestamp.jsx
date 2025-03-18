@@ -1,3 +1,3 @@
-export function Timestamp ({ timestamp }) {
-    return <span className="timestamp">{timestamp}</span>;
+export function Timestamp ({ time }) {
+    return <span className="timestamp">{time}</span>;
 }
